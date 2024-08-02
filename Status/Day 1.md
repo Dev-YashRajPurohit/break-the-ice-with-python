@@ -135,6 +135,14 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+---
+---
+- **Using Modules**
+- '''Solution by: YashRajPurohit'''
+- from math import factorial
+num = int(input('Please Enter a Number: '))
+fact = factorial(num)
+print(f'The Factorial of {num} is {fact}')
 
 # Question 3
 
